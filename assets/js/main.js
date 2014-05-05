@@ -7,6 +7,7 @@ $(document).ready(function() {
         anchors: ['firstPage', 'secondPage', 'thirdPage'],
     	menu: '#myMenu',
         navigation: true,
+        autoScrolling: true,
 
 
 
