@@ -441,10 +441,21 @@ transition-duration: 500ms;
 
   .work_head {
     height:15%;
+    margin-bottom: 40px;
   }
 
   .work_container {
     height:85%;
+    
+
+    .work_caption {
+      margin-bottom: 50px;
+
+
+      h5 {
+        margin-top: 0px;
+      }
+    }
 
   }
 }
@@ -452,12 +463,36 @@ transition-duration: 500ms;
 .last-top {
   height:15%;
   width:100%;
+
+  .about_header {
+    
+    margin-top: 30px;
+    margin-left: 20px;
+    float:left;
+
+  }
+
+  .contact_header {
+
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+
+  }
 }
 
+.about {
+  height:85%;
+  width:50%;
+  float:left;
+  background-color: orange;
+}
 
 .contact {
   height: 85%;
+  width:50%;
   float: right;
+  background-color: grey;
 }
 /* ==========================================================================
    Media Queries

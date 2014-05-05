@@ -42,6 +42,8 @@ $(document).ready(function() {
 
             if(index == '3'){
               $(".logo").fadeIn(700);
+
+
           }
 
 
