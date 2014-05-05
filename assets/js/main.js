@@ -6,7 +6,6 @@ $(document).ready(function() {
         easing: 'easeOutQuart',
         anchors: ['firstPage', 'secondPage', 'thirdPage'],
     	menu: '#myMenu',
-        
         navigation: true,
 
 
@@ -35,12 +34,12 @@ $(document).ready(function() {
                 $(".logo").fadeIn(700);
             }
 
-			     if(index == '2'){
-				      $(".logo").fadeIn(700);
+			if(index == '2'){
+				$(".logo").fadeIn(700);
 
-			     }
+			 }
 
-          if(index == '3'){
+            if(index == '3'){
               $(".logo").fadeIn(700);
           }
 

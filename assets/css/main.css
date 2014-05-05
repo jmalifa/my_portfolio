@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -5869,29 +5870,6 @@ transition-duration: 500ms;
     height: 15%; }
   .work .work_container {
     height: 85%; }
-    .work .work_container .content {
-      display: block;
-      padding: 0;
-      margin: 0 0px;
-      *zoom: 1; }
-      .work .work_container .content:before, .work .work_container .content:after {
-        content: " ";
-        display: table; }
-      .work .work_container .content:after {
-        clear: both; }
-      .work .work_container .content > li {
-        display: block;
-        height: auto;
-        float: left;
-        padding: 0 0px 0px; }
-      .work .work_container .content > li {
-        width: 8.33333%;
-        padding: 0 0px 0px;
-        list-style: none; }
-        .work .work_container .content > li:nth-of-type(n) {
-          clear: none; }
-        .work .work_container .content > li:nth-of-type(12n+1) {
-          clear: both; }
 
 .last-top {
   height: 15%;
