@@ -5738,18 +5738,19 @@ svg rect {
   opacity: 0; }
 
 /* == END OF SVG == */
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin: 0; }
+
 .name-container {
   height: 25%;
   width: 600px;
   margin: 0 auto; }
-  .name-container hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    margin: 0; }
   .name-container .nav {
     height: 60px; }
     .name-container .nav ul {
@@ -5864,6 +5865,10 @@ transition-duration: 500ms;
   height: 130px;
   width: 100%; }
 
+.about_head {
+  height: 130px;
+  width: 100%; }
+
 .logo {
   display: block;
   width: 100px;
@@ -5878,12 +5883,23 @@ transition-duration: 500ms;
   .work .work_head {
     height: 15%;
     margin-bottom: 40px; }
-  .work .work_container .work_caption {
-    margin-bottom: 50px; }
-    .work .work_container .work_caption h5 {
-      font-size: 15px;
-      color: #999999;
-      text-align: center; }
+  .work .work_container {
+    height: 55%; }
+    .work .work_container .work_caption {
+      margin-bottom: 50px; }
+      .work .work_container .work_caption h5 {
+        font-size: 15px;
+        color: #999999;
+        text-align: center; }
+  .work .work_bottom {
+    height: 20%;
+    background-color: grey; }
+
+.about {
+  height: 700px; }
+
+.contact {
+  height: 700px; }
 
 /* ==========================================================================
    Media Queries
