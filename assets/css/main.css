@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -5641,7 +5642,6 @@ body {
     .home-bottom .greeting h1 {
       font-size: 100px;
       color: #fbb03b;
-      text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0, 0, 0, 0.15), 0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
       letter-spacing: 5px;
       font-family: "Helvetica";
       font-weight: bold;
@@ -5863,41 +5863,28 @@ transition-duration: 500ms;
 */
 /* /fade end */
 .work {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #f8f8f8;
   height: 100%; }
   .work .work_head {
     height: 15%;
     margin-bottom: 40px; }
-  .work .work_container {
-    height: 85%; }
-    .work .work_container .work_caption {
-      margin-bottom: 50px; }
-      .work .work_container .work_caption h5 {
-        margin-top: 0px; }
+  .work .work_container .work_caption {
+    margin-bottom: 50px; }
+    .work .work_container .work_caption h5 {
+      font-size: 15px;
+      color: #999999;
+      text-align: center; }
 
-.last-top {
-  height: 15%;
-  width: 100%; }
-  .last-top .about_header {
-    margin-top: 30px;
-    margin-left: 20px;
-    float: left; }
-  .last-top .contact_header {
-    margin-top: 30px;
-    margin-right: 20px;
-    float: right; }
-
-.about {
-  height: 85%;
-  width: 50%;
-  float: left;
-  background-color: orange; }
-
-.contact {
-  height: 85%;
-  width: 50%;
-  float: right;
-  background-color: grey; }
+.last_section {
+  height: 100%; }
+  .last_section .about {
+    height: 1000px;
+    width: 100%;
+    background-color: black; }
+  .last_section .contact {
+    height: 1000px;
+    width: 100%;
+    background-color: grey; }
 
 /* ==========================================================================
    Media Queries

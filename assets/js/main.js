@@ -8,6 +8,7 @@ $(document).ready(function() {
     	menu: '#myMenu',
         navigation: true,
         autoScrolling: true,
+        scrollOverflow: true,
 
 
 
