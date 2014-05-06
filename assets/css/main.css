@@ -5614,7 +5614,15 @@ body {
 
 .top-container {
   height: 130px;
-  width: 100px; }
+  width: 100%; }
+
+.logo1 {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  z-index: 9;
+  margin-top: 15px; }
 
 .home-bottom {
   /* IE10 Consumer Preview */
@@ -5653,27 +5661,17 @@ body {
       margin: 0 auto;
       content: attr(data-hover); }
     .home-bottom .greeting h6 {
-      font-size: 18px;
+      font-size: 17px;
       color: black;
       font-family: "Helvetica";
       font-weight: 100; }
 
-.logo {
-  position: fixed;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  left: 0px;
-  right: 0px;
-  top: 15px;
-  z-index: 9; }
-
 /* == SVG STYLES == */
-svg {
-  position: absolute;
-  top: 0;
-  left: 0; }
-
+/*svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}*/
 svg line {
   stroke-width: 5;
   stroke: #FBB03B;
@@ -5862,6 +5860,18 @@ transition-duration: 500ms;
 
 */
 /* /fade end */
+.work_head {
+  height: 130px;
+  width: 100%; }
+
+.logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  z-index: 9;
+  padding-top: 15px; }
+
 .work {
   background-color: #f8f8f8;
   height: 100%; }
@@ -5874,17 +5884,6 @@ transition-duration: 500ms;
       font-size: 15px;
       color: #999999;
       text-align: center; }
-
-.last_section {
-  height: 100%; }
-  .last_section .about {
-    height: 1000px;
-    width: 100%;
-    background-color: black; }
-  .last_section .contact {
-    height: 1000px;
-    width: 100%;
-    background-color: grey; }
 
 /* ==========================================================================
    Media Queries

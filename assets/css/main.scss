@@ -104,10 +104,19 @@ body {
 }
 .top-container {
   height:130px;
-  width:100px;
+  width:100%;
 
 }
 
+.logo1 {
+    display:block;
+    width:100px;
+    height:100px;
+    margin: 0 auto;
+    z-index: 9;
+    margin-top:15px;
+
+}
 
 
 .home-bottom {
@@ -161,7 +170,7 @@ background-image: radial-gradient(circle closest-corner at center, #6F7372 0%, #
       }
 
       h6 {
-      font-size: 18px;
+      font-size: 17px;
       color:black;
       font-family: "Helvetica";
       font-weight: 100;
@@ -173,28 +182,17 @@ background-image: radial-gradient(circle closest-corner at center, #6F7372 0%, #
  
 }
 
-.logo {
-    position:fixed;
-    width:100px;
-    height:100px;
-    margin: 0 auto;
-    left: 0px;
-    right: 0px;
-    top:15px;
-    z-index: 9;
-
-}
 
 /* == SVG STYLES == */
 
 
 
 
-svg {
+/*svg {
     position: absolute;
     top: 0;
     left: 0;
-}
+}*/
  
 svg line {
     stroke-width:5;
@@ -430,6 +428,21 @@ transition-duration: 500ms;
 
 /* /fade end */
 
+.work_head {
+  height:130px;
+  width:100%;
+
+}
+
+.logo {
+    display:block;
+    width:100px;
+    height:100px;
+    margin: 0 auto;
+    z-index: 9;
+    padding-top: 15px;
+
+}
 
 
 .work {
@@ -455,20 +468,7 @@ transition-duration: 500ms;
   }
 }
 
-.last_section {
-  height:100%;
 
-  .about {
-    height:1000px;
-    width:100%;
-    background-color:black;
-  }
-  .contact {
-    height:1000px;
-    width:100%;
-    background-color:grey;
-  }
-}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
