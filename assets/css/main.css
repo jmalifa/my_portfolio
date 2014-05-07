@@ -5674,29 +5674,18 @@ hr.style-two {
         display: none; }
 
 .home-bottom {
-  width: 100%;
-  height: 75%;
-  /* Hide original text */
-  /* Replace original text with value in data-hover */ }
-  .home-bottom h1 {
-    font-size: 100px;
-    color: #999999;
-    letter-spacing: 5px;
-    font-family: "Helvetica";
-    font-weight: 100;
-    margin: 0px;
-    height: 120px; }
-  .home-bottom h1:hover {
-    font-size: 0; }
-  .home-bottom h1:hover:before {
-    font-size: 100px;
-    margin: 0 auto;
-    content: attr(data-hover); }
-  .home-bottom h6 {
-    font-size: 17px;
-    color: black;
-    font-family: "Helvetica";
-    font-weight: 100; }
+  width: 100%; }
+  .home-bottom .greeting {
+    margin-top: 50px; }
+    .home-bottom .greeting h1 {
+      font-size: 130px;
+      color: black;
+      font-family: "Helvetica";
+      font-weight: 100;
+      margin: 0px; }
+    .home-bottom .greeting h2 {
+      font-size: 20px;
+      font-weight: 200; }
 
 /* == SVG STYLES == */
 /*svg {
@@ -5865,26 +5854,27 @@ transition-duration: 500ms;
   .work .work_head {
     height: 15%;
     margin-bottom: 40px; }
-  .work .work_container .work_caption {
-    margin-bottom: 50px;
-    border-bottom: 1px solid #999999; }
-    .work .work_container .work_caption h5 {
-      font-size: 14px;
-      color: #999999;
-      text-align: center;
-      font: Helvetica;
-      font-weight: 200;
-      margin: 10px 0; }
+  .work .work_container {
+    margin-top: 110px; }
+    .work .work_container .work_caption {
+      margin-bottom: 50px;
+      border-bottom: 1px solid #999999; }
+      .work .work_container .work_caption h5 {
+        font-size: 14px;
+        color: #999999;
+        text-align: center;
+        font: Helvetica;
+        font-weight: 200;
+        margin: 10px 0; }
 
-.about {
-  height: 50%; }
-  .about .about_img {
-    height: 200px; }
-    .about .about_img h6 {
-      text-align: center; }
+.about .about_pic {
+  margin-top: 50px;
+  text-align: center; }
 
-.contact {
-  height: 50%; }
+.about_description {
+  text-align: center; }
+  .about_description h3 {
+    margin: 20px 0; }
 
 .social {
   width: 400px;

@@ -87,7 +87,7 @@ body {
 
   img {
     position:absolute;
-    right:300px;
+    right: 300px;
     bottom: 0px;
   }
 
@@ -195,38 +195,24 @@ hr.style-two {
 .home-bottom {
 
   width:100%;
-  height:75%;
-
+    
+    .greeting {
+      margin-top:50px;
   
       h1 {
-      font-size: 100px;
-      color: #999999;
-      letter-spacing: 5px;
+      font-size: 130px;
+      color: black;
       font-family: "Helvetica";
       font-weight: 100;
       margin: 0px;
-      height:120px;
 
       }
 
-    
-
-      /* Hide original text */
-      h1:hover { font-size: 0; }
-
-/* Replace original text with value in data-hover */
-      h1:hover:before {
-      font-size: 100px;
-      margin:0 auto;
-      content: attr(data-hover);
+      h2 {
+        font-size: 20px;
+        font-weight:200;
       }
-
-      h6 {
-      font-size: 17px;
-      color:black;
-      font-family: "Helvetica";
-      font-weight: 100;
-      }
+    }
  
 }
 
@@ -442,6 +428,7 @@ transition-duration: 500ms;
   }
 
   .work_container {
+    margin-top: 110px;
 
     .work_caption {
       margin-bottom: 50px;
@@ -460,21 +447,20 @@ transition-duration: 500ms;
 }
 
 .about {
-  height:50%;
-  
-  .about_img {
-    height:200px;
-    h6 {
-      text-align: center;
 
-    }
+  .about_pic {
+    margin-top:50px;
+    text-align: center;
   }
 }
 
-.contact {
-  height: 50%;
-}
+.about_description {
+  text-align: center;
 
+  h3 {
+    margin: 20px 0;
+  }
+}
 .social {
   width:400px;
   margin: 0 auto;
