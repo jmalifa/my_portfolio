@@ -5611,7 +5611,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 25%; }
+  height: 230px; }
 
 .top-container {
   height: 130px;
@@ -5771,7 +5771,7 @@ hr.style-two {
           font-family: 'Source Sans Pro', sans-serif;
           display: inline-block;
           font-weight: 200;
-          font-size: 18px; }
+          font-size: 15px; }
         .name-container .nav ul li a:after {
           content: '';
           display: block;
@@ -5907,7 +5907,8 @@ transition-duration: 500ms;
 
 .social {
   width: 400px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
 
 /* ==========================================================================
    Media Queries
