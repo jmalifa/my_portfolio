@@ -465,30 +465,42 @@ transition-duration: 500ms;
   }
 
   .work_container {
-    height:55%;
+
     .work_caption {
       margin-bottom: 50px;
+      border-bottom: 1px solid #999999;
       h5 {
-         font-size: 15px;
+        font-size: 14px;
         color: #999999;
         text-align: center;
+        font:Helvetica;
+        font-weight: 200;
+        margin:10px 0;
 
       }
     }
   }
-
-  .work_bottom {
-    height:20%;
-    background-color: grey;
-  }
 }
 
 .about {
-  height:700px;
+  height:50%;
+  
+  .about_img {
+    height:200px;
+    h6 {
+      text-align: center;
+
+    }
+  }
 }
 
 .contact {
-  height: 700px;
+  height: 50%;
+}
+
+.social {
+  width:400px;
+  margin: 0 auto;
 }
 
 /* ==========================================================================

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -5883,23 +5884,30 @@ transition-duration: 500ms;
   .work .work_head {
     height: 15%;
     margin-bottom: 40px; }
-  .work .work_container {
-    height: 55%; }
-    .work .work_container .work_caption {
-      margin-bottom: 50px; }
-      .work .work_container .work_caption h5 {
-        font-size: 15px;
-        color: #999999;
-        text-align: center; }
-  .work .work_bottom {
-    height: 20%;
-    background-color: grey; }
+  .work .work_container .work_caption {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #999999; }
+    .work .work_container .work_caption h5 {
+      font-size: 14px;
+      color: #999999;
+      text-align: center;
+      font: Helvetica;
+      font-weight: 200;
+      margin: 10px 0; }
 
 .about {
-  height: 700px; }
+  height: 50%; }
+  .about .about_img {
+    height: 200px; }
+    .about .about_img h6 {
+      text-align: center; }
 
 .contact {
-  height: 700px; }
+  height: 50%; }
+
+.social {
+  width: 400px;
+  margin: 0 auto; }
 
 /* ==========================================================================
    Media Queries
