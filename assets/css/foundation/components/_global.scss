@@ -76,6 +76,7 @@ $base-line-height: 150% !default;
 // We use this to add box-sizing across browser prefixes
 @mixin box-sizing($type:border-box) {
   box-sizing: $type;
+  -moz-box-sizing:$type;
 }
 
 // @mixins

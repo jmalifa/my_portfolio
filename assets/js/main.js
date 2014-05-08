@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         verticalCentered: false,
         resize : true,
-        scrollingSpeed: 1000,
+        scrollingSpeed: 1500,
         easing: 'easeOutQuart',
         anchors: ['firstPage', 'secondPage', 'thirdPage'],
     	menu: '#myMenu',

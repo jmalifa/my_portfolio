@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -384,7 +385,8 @@ html, body {
 *,
 *:before,
 *:after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
 
 html,
 body {
@@ -2753,6 +2755,7 @@ textarea {
   height: 2.3125rem;
   width: 100%;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
   transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
   input[type="text"]:focus,
   input[type="password"]:focus,
@@ -5603,6 +5606,13 @@ body {
     right: 300px;
     bottom: 0px; }
 
+h5 {
+  text-align: center;
+  font-size: 19px;
+  letter-spacing: 1px;
+  font-family: Helvetica;
+  font-weight: 400; }
+
 .home-top {
   background: #fbb03b;
   border-bottom: 1px solid black;
@@ -5676,23 +5686,27 @@ hr.style-two {
 .home-bottom {
   width: 100%; }
   .home-bottom .greeting {
-    margin-top: 50px; }
+    margin-top: 100px; }
     .home-bottom .greeting h1 {
-      font-size: 130px;
+      font-size: 100px;
       color: black;
       font-family: "Helvetica";
       font-weight: 100;
-      margin: 0px; }
+      margin: 0px;
+      letter-spacing: 2px; }
     .home-bottom .greeting h2 {
-      font-size: 20px;
+      font-size: 17px;
       font-weight: 200; }
+    .home-bottom .greeting .button {
+      margin-top: 15px;
+      color: white;
+      background-color: #fbb03b;
+      font-weight: 200;
+      font-size: 14px; }
+    .home-bottom .greeting .button:hover {
+      color: black; }
 
 /* == SVG STYLES == */
-/*svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-}*/
 svg line {
   stroke-width: 5;
   stroke: #FBB03B;
@@ -5759,79 +5773,6 @@ svg rect {
   opacity: 0; }
 
 /* == END OF SVG == */
-/* Fade in/out effect */
-/*div.box div.details h4 {
-  top: 40%;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  font-size: 17px;
-  font-family:'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  color: black;
-
-}
-
-div.box .details {
-position:absolute;
-top:50px;
-left:15px;
-width: 300px;
-height: 200px;
-background: rgb(0, 0, 0);
-background: rgba(251, 176, 59, .85);
-color: #fff;
-opacity: 0;
-
-.box {
-  display:none;
-}*/
-/* Fade out */
-/*transition: opacity;
-transition-timing-function: ease-out;
-transition-duration: 250ms;
-transition-delay: .3s;
-    
--ms-transition: opacity;
--ms-transition-timing-function: ease-out;
--ms-transition-duration: 250ms;
--ms-transition-delay: .3s; 
-    
--moz-transition: opacity;
--moz-transition-timing-function: ease-out;
--moz-transition-duration: 250ms;
--moz-transition-delay: .3s; 
-    
--webkit-transition: opacity;
--webkit-transition-timing-function: ease-out;
--webkit-transition-duration: 250ms;
--webkit-transition-delay: .3s;    
-}
-
-
-
-div.box .details:hover {
-opacity: 1;*/
-/* Fade in */
-/*transition: opacity;
-transition-timing-function: ease-out;
-transition-duration: 500ms;
-
--ms-transition:opacity;
--ms-transition-timing-function: ease-out;
--ms-transition-duration: 500ms;
-
--moz-transition:opacity;
--moz-transition-timing-function: ease-out;
--moz-transition-duration: 500ms;
-
--webkit-transition: opacity;
--webkit-transition-timing-function: ease-out;
--webkit-transition-duration: 500ms;
-}
-
-*/
-/* /fade end */
 .work_head {
   height: 130px;
   width: 100%; }
@@ -5846,40 +5787,75 @@ transition-duration: 500ms;
   height: 100px;
   margin: 0 auto;
   z-index: 9;
-  padding-top: 15px; }
+  padding-top: 25px; }
 
 .work {
-  background-color: #f8f8f8;
   height: 100%; }
   .work .work_head {
     height: 15%;
-    margin-bottom: 40px; }
+    margin-bottom: 30px; }
   .work .work_container {
-    margin-top: 110px; }
+    margin-top: 30px; }
+    .work .work_container img {
+      display: block;
+      -webkit-transition: all 0.3s; }
+    .work .work_container img:hover {
+      -webkit-filter: grayscale(100%); }
     .work .work_container .work_caption {
       margin-bottom: 50px;
       border-bottom: 1px solid #999999; }
       .work .work_container .work_caption h5 {
-        font-size: 14px;
-        color: #999999;
+        font-size: 16px;
+        color: black;
         text-align: center;
-        font: Helvetica;
-        font-weight: 200;
+        font-family: 'Cabin Condensed', sans-serif;
         margin: 10px 0; }
 
 .about .about_pic {
   margin-top: 50px;
   text-align: center; }
+  .about .about_pic img {
+    -webkit-transition: all 0.1s; }
+  .about .about_pic img:hover {
+    -webkit-filter: grayscale(100%); }
 
 .about_description {
-  text-align: center; }
-  .about_description h3 {
-    margin: 20px 0; }
+  text-align: center;
+  margin-top: 40px; }
+  .about_description h5 {
+    font-size: 19px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    font-family: Helvetica;
+    font-weight: 400; }
+  .about_description p {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Helvetica; }
 
-.social {
-  width: 400px;
-  margin: 0 auto;
+.contact {
   text-align: center; }
+  .contact h5 {
+    font-size: 19px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    font-family: Helvetica;
+    font-weight: 400; }
+  .contact p {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Helvetica; }
+  .contact .social {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px; }
+    .contact .social a {
+      color: black; }
+      .contact .social a i {
+        margin: 0 5px; }
+      .contact .social a i:hover {
+        color: #fbb03b; }
 
 /* ==========================================================================
    Media Queries
