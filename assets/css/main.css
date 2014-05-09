@@ -5606,16 +5606,15 @@ body {
     right: 300px;
     bottom: 0px; }
 
-h5 {
+h2 {
   text-align: center;
   font-size: 19px;
   letter-spacing: 1px;
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 400; }
 
 .home-top {
   background: #fbb03b;
-  border-bottom: 1px solid black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -5625,6 +5624,92 @@ h5 {
 .top-container {
   height: 130px;
   width: 100%; }
+
+.logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  z-index: 9;
+  padding-top: 15px; }
+
+.logo1 {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  z-index: 9;
+  margin-top: 15px; }
+
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  margin: 0; }
+
+.nav {
+  height: 60px; }
+  .nav ul {
+    list-style: none;
+    line-height: 30px;
+    text-align: center;
+    height: 60px;
+    margin: 20px 0 0 0; }
+    .nav ul li {
+      display: inline;
+      /*border: 2px solid black;*/
+      padding: 10px 20px;
+      margin-left: 5px;
+      margin-right: 5px; }
+      .nav ul li a {
+        color: black;
+        font-family: Helvetica, Arial, sans-serif;
+        display: inline-block;
+        font-weight: 200;
+        font-size: 15px; }
+      .nav ul li a:after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 0;
+        background: transparent;
+        color: black;
+        transition: width .3s ease, background-color .3s ease; }
+      .nav ul li a:hover {
+        color: white; }
+      .nav ul li a:hover:after {
+        width: 100%;
+        background: black;
+        color: black; }
+    .nav ul li:first-child {
+      display: none; }
+
+.home-bottom {
+  width: 100%; }
+  .home-bottom .greeting {
+    margin-top: 100px; }
+    .home-bottom .greeting h1 {
+      font-size: 100px;
+      color: black;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 100;
+      margin: 0px;
+      letter-spacing: 2px;
+      font-weight: 500; }
+    .home-bottom .greeting p {
+      font-size: 17px;
+      font-weight: 200; }
+    .home-bottom .greeting .button {
+      margin-top: 15px;
+      color: white;
+      background-color: #fbb03b;
+      font-weight: 200;
+      font-size: 14px; }
+    .home-bottom .greeting .button:hover {
+      color: black; }
 
 .b_estate {
   width: 250px;
@@ -5698,85 +5783,79 @@ h5 {
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
 
-.logo1 {
-  display: block;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  z-index: 9;
-  margin-top: 15px; }
+.work {
+  height: 100%; }
+  .work .work_head {
+    height: 130px;
+    margin-bottom: 15px; }
+  .work .work_container {
+    margin-top: 20px; }
+    .work .work_container .grayscale {
+      display: block;
+      -webkit-transition: all 0.3s; }
+    .work .work_container .grayscale:hover {
+      -webkit-filter: grayscale(100%); }
+    .work .work_container .work_caption {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #999999;
+      width: 70%;
+      margin: 0 auto; }
+      .work .work_container .work_caption h5 {
+        font-size: 14px;
+        color: #555555;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 10px 0;
+        font-weight: 400; }
 
-hr.style-two {
-  border: 0;
-  height: 1px;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin: 0; }
-
-.name-container {
-  height: 25%;
-  margin: 0 auto; }
-  .name-container .nav {
-    height: 60px; }
-    .name-container .nav ul {
-      list-style: none;
-      line-height: 30px;
-      text-align: center;
-      height: 60px;
-      margin: 20px 0 0 0; }
-      .name-container .nav ul li {
-        display: inline;
-        /*border: 2px solid black;*/
-        padding: 10px 20px;
-        margin-left: 5px;
-        margin-right: 5px; }
-        .name-container .nav ul li a {
-          color: black;
-          font-family: 'Source Sans Pro', sans-serif;
-          display: inline-block;
-          font-weight: 200;
-          font-size: 15px; }
-        .name-container .nav ul li a:after {
-          content: '';
-          display: block;
-          height: 1px;
-          width: 0;
-          background: transparent;
-          color: black;
-          transition: width .3s ease, background-color .3s ease; }
-        .name-container .nav ul li a:hover {
-          color: white; }
-        .name-container .nav ul li a:hover:after {
-          width: 100%;
-          background: black;
-          color: black; }
-      .name-container .nav ul li:first-child {
-        display: none; }
-
-.home-bottom {
+.about_head {
+  height: 130px;
   width: 100%; }
-  .home-bottom .greeting {
-    margin-top: 100px; }
-    .home-bottom .greeting h1 {
-      font-size: 100px;
-      color: black;
-      font-family: "Helvetica";
-      font-weight: 100;
-      margin: 0px;
-      letter-spacing: 2px; }
-    .home-bottom .greeting h2 {
-      font-size: 17px;
-      font-weight: 200; }
-    .home-bottom .greeting .button {
-      margin-top: 15px;
-      color: white;
-      background-color: #fbb03b;
-      font-weight: 200;
-      font-size: 14px; }
-    .home-bottom .greeting .button:hover {
+
+.about .about_pic {
+  margin-top: 50px;
+  text-align: center; }
+  .about .about_pic img {
+    -webkit-transition: all 0.1s;
+    -webkit-filter: grayscale(100%); }
+  .about .about_pic img:hover {
+    -webkit-filter: grayscale(0%); }
+.about .about_description {
+  text-align: center;
+  margin-top: 40px; }
+  .about .about_description h2 {
+    font-size: 19px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400; }
+  .about .about_description p {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: Helvetica, Arial, sans-serif; }
+
+.contact {
+  text-align: center; }
+  .contact h2 {
+    font-size: 19px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400; }
+  .contact p {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: Helvetica, Arial, sans-serif; }
+  .contact .social {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px; }
+    .contact .social a {
       color: black; }
+      .contact .social a i {
+        margin: 0 5px; }
+      .contact .social a i:hover {
+        color: #fbb03b; }
 
 /* == SVG STYLES == */
 svg line {
@@ -5845,93 +5924,114 @@ svg rect {
   opacity: 0; }
 
 /* == END OF SVG == */
-.work_head {
-  height: 130px;
-  width: 100%; }
-
-.about_head {
-  height: 130px;
-  width: 100%; }
-
-.logo {
-  display: block;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  z-index: 9;
-  padding-top: 15px; }
-
-.work {
-  height: 100%; }
-  .work .work_head {
-    height: 130px;
-    margin-bottom: 15px; }
-  .work .work_container {
-    margin-top: 10px; }
-    .work .work_container .grayscale {
-      display: block;
-      -webkit-transition: all 0.3s; }
-    .work .work_container .grayscale:hover {
-      -webkit-filter: grayscale(100%); }
-    .work .work_container .work_caption {
-      margin-bottom: 10px;
-      border-bottom: 1px solid #999999; }
-      .work .work_container .work_caption h5 {
-        font-size: 16px;
-        color: black;
-        text-align: center;
-        font-family: 'Cabin Condensed', sans-serif;
-        margin: 10px 0; }
-
-.about .about_pic {
-  margin-top: 50px;
-  text-align: center; }
-  .about .about_pic img {
-    -webkit-transition: all 0.1s; }
-  .about .about_pic img:hover {
-    -webkit-filter: grayscale(100%); }
-
-.about_description {
-  text-align: center;
-  margin-top: 40px; }
-  .about_description h5 {
-    font-size: 19px;
-    margin: 20px 0;
-    letter-spacing: 1px;
-    font-family: Helvetica;
-    font-weight: 400; }
-  .about_description p {
-    font-size: 15px;
-    font-weight: 200;
-    font-family: Helvetica; }
-
-.contact {
-  text-align: center; }
-  .contact h5 {
-    font-size: 19px;
-    margin: 20px 0;
-    letter-spacing: 1px;
-    font-family: Helvetica;
-    font-weight: 400; }
-  .contact p {
-    font-size: 15px;
-    font-weight: 200;
-    font-family: Helvetica; }
-  .contact .social {
-    width: 400px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 10px; }
-    .contact .social a {
-      color: black; }
-      .contact .social a i {
-        margin: 0 5px; }
-      .contact .social a i:hover {
-        color: #fbb03b; }
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+@media only screen and (max-width: 40em) {
+  .home {
+    height: 100%; }
+    .home img {
+      position: absolute;
+      left: -100px;
+      bottom: 0px; }
+
+  .home-top {
+    background: #fbb03b;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 150px; }
+
+  .top-container {
+    height: 100px;
+    width: 100%; }
+
+  .logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    z-index: 9;
+    padding-top: 15px; }
+
+  .logo1 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    z-index: 9;
+    margin-top: 15px; }
+
+  hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    margin: 0; }
+
+  .nav {
+    height: 30px; }
+    .nav ul {
+      list-style: none;
+      line-height: 30px;
+      text-align: center;
+      height: 30px;
+      margin: 5px 0 0 0; }
+      .nav ul li {
+        display: inline;
+        /*border: 2px solid black;*/
+        padding: 10px 20px;
+        margin-left: 5px;
+        margin-right: 5px; }
+        .nav ul li a {
+          color: black;
+          font-family: Helvetica, Arial, sans-serif;
+          display: inline-block;
+          font-weight: 200;
+          font-size: 15px; }
+        .nav ul li a:after {
+          content: '';
+          display: block;
+          height: 1px;
+          width: 0;
+          background: transparent;
+          color: black;
+          transition: width .3s ease, background-color .3s ease; }
+        .nav ul li a:hover {
+          color: white; }
+        .nav ul li a:hover:after {
+          width: 100%;
+          background: black;
+          color: black; }
+      .nav ul li:first-child {
+        display: none; }
+
+  .home-bottom {
+    width: 100%; }
+    .home-bottom .greeting {
+      margin-top: 5px; }
+      .home-bottom .greeting h1 {
+        font-size: 60px;
+        color: black;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        margin: 0px;
+        letter-spacing: 2px;
+        font-weight: 500; }
+      .home-bottom .greeting p {
+        font-size: 17px;
+        font-weight: 200; }
+      .home-bottom .greeting .button {
+        margin-top: 15px;
+        color: white;
+        background-color: #fbb03b;
+        font-weight: 200;
+        font-size: 14px; }
+      .home-bottom .greeting .button:hover {
+        color: black; } }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
