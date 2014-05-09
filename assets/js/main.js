@@ -9,8 +9,8 @@ $(document).ready(function() {
         navigation: true,
         autoScrolling: true,
         scrollOverflow: true,
-        normalScrollElementTouchThreshold: 5,
         css3: true,
+        touchSensitivity: 10,
 
 
 
