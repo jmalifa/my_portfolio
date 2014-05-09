@@ -9,6 +9,7 @@ $(document).ready(function() {
         navigation: true,
         autoScrolling: true,
         scrollOverflow: true,
+        normalScrollElementTouchThreshold: 5,
 
 
 
