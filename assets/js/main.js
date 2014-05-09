@@ -34,16 +34,16 @@ $(document).ready(function() {
 			
 
             if(index == '1'){
-                $(".logo").fadeIn(700);
+                $(".logo").fadeIn(500);
             }
 
 			if(index == '2'){
-				$(".logo").fadeIn(700);
+				$(".logo").fadeIn(500);
 
 			 }
 
             if(index == '3'){
-              $(".logo").fadeIn(700);
+              $(".logo").fadeIn(500);
 
 
           }

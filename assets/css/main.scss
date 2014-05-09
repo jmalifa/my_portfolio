@@ -217,12 +217,15 @@ hr.style-two {
       margin: 0px;
       letter-spacing: 2px;
       font-weight: 500;
+      
+     
 
       }
 
       p {
         font-size: 17px;
         font-weight:200;
+        
       }
 
       .button {
@@ -231,6 +234,7 @@ hr.style-two {
         background-color:$primary-color;
         font-weight: 200;
         font-size: 14px;
+        
       }
 
       .button:hover {
