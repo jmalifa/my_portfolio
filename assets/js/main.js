@@ -10,6 +10,7 @@ $(document).ready(function() {
         autoScrolling: true,
         scrollOverflow: true,
         normalScrollElementTouchThreshold: 5,
+        css3: true,
 
 
 
