@@ -10,7 +10,7 @@ $(document).ready(function() {
         autoScrolling: true,
         scrollOverflow: true,
         css3: true,
-        touchSensitivity: 10,
+        touchSensitivity: 50,
 
 
 
