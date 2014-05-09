@@ -5797,7 +5797,6 @@ hr.style-two {
       -webkit-filter: grayscale(100%); }
     .work .work_container .work_caption {
       margin-bottom: 10px;
-      border-bottom: 1px solid #999999;
       width: 70%;
       margin: 0 auto; }
       .work .work_container .work_caption h5 {
@@ -6112,7 +6111,7 @@ svg rect {
     margin: 0 auto;
     text-align: center;
     margin-top: 10px;
-    height: 100px; } }
+    height: 80px; } }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
